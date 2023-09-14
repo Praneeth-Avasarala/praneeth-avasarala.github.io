@@ -265,7 +265,7 @@ input, select, textarea {
 	  margin-left:32px;
 	  font-family:"Segoe Print", "Times New Roman", Verdana;
 	  padding-left: 48px;
-	  background:url('././images/blockquote.png');
+	  background:url('../../images/blockquote.png');
 	  background-repeat:no-repeat;
 	  min-height: 30px;  
 	}
