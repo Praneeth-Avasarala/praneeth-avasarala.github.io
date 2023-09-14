@@ -252,14 +252,15 @@ input, select, textarea {
 		top: -0.5rem;
 	}
 
-/* 	blockquote {
+	blockquote {
 		border-left: solid 4px #ffffff;
+		font-family:"Segoe Print", "Times New Roman", Verdana;
 		font-style: italic;
 		margin: 0 0 2rem 0;
 		padding: 0.5rem 0 0.5rem 2rem;
-	} */
+	}
 
-        blockquote
+/*         blockquote
 	{
 	  border-left: solid 4px #ffffff;
 	  font-style:normal;
@@ -269,7 +270,7 @@ input, select, textarea {
 	  background:url('../../images/blockquote.png');
 	  background-repeat:no-repeat;
 	  min-height: 30px;  
-	}
+	} */
 
 	code {
 		background: rgba(255, 255, 255, 0.075);
