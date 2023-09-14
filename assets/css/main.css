@@ -1160,8 +1160,8 @@ input, select, textarea {
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url("../../images/thesan_lightcone.png");
 			background-position: center;
-			background-size: cover;
-			background-repeat: round;
+			background-size: contain;
+			background-repeat: repeat;
 			z-index: 1;
 		}
 
