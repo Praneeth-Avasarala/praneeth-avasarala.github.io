@@ -268,7 +268,8 @@ input, select, textarea {
 		font-family:"Segoe Print", "Times New Roman", Verdana;
 		font-style: italic;
 		background-color: rgba(0, 0, 0, 0.85);
-		color: rgb(231, 231, 130);
+		/* color: rgb(231, 231, 130);*/
+		color: white;
 		font-size: 0.6 rem;
 		margin: 0 0rem 1rem 0;
 		padding: 0rem 0rem 0rem 0rem;
@@ -1362,9 +1363,10 @@ input, select, textarea {
 			#header .content p {
 				text-transform: uppercase;
 				background-color: rgba(0, 0, 0, 0.85);
-				color: rgb(231, 231, 130);
+				color: white ;
+				/* color: rgb(231, 231, 130); */
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 0.55rem;
 				line-height: 1;
 			}
 
