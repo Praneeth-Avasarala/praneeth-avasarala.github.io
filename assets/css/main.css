@@ -267,7 +267,7 @@ input, select, textarea {
 		border-left: solid 1px #ffffff;
 		font-family:"Segoe Print", "Times New Roman", Verdana;
 		font-style: italic;
-		background-color: rgba(0, 0, 0, 0.7);
+		background-color: rgba(0, 0, 0, 0.85);
 		color: rgb(231, 231, 130);
 		font-size: 0.6 rem;
 		margin: 0 0rem 1rem 0;
@@ -944,6 +944,7 @@ input, select, textarea {
 				display: inline-block;
 				height: 2.5rem;
 				line-height: 2.5rem;
+				background-color: rgba(0, 0, 0, 0.85);
 				text-align: center;
 				width: 2.5rem;
 				font-size: 1.5rem;
@@ -1360,7 +1361,7 @@ input, select, textarea {
 
 			#header .content p {
 				text-transform: uppercase;
-				background-color: rgba(0, 0, 0, 0.7);
+				background-color: rgba(0, 0, 0, 0.85);
 				color: rgb(231, 231, 130);
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
