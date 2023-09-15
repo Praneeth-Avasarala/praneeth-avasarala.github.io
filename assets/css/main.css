@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	p {
-		font-weight:600;
+		font-weight:300;
 		font-size:1.2rem;
 		margin: 0 0 2rem 0;
 	}
@@ -267,12 +267,12 @@ input, select, textarea {
 		border-left: solid 1px #ffffff;
 		font-family:"Segoe Print", "Times New Roman", Verdana;
 		font-style: italic;
-		background-color: rgba(0, 0, 0, 0.85);
+		/* background-color: rgba(0, 0, 0, 0.85); */
 		/* color: rgb(231, 231, 130);*/
 		color: white;
 		font-size: 0.6 rem;
-		margin: 0 0rem 1rem 0;
-		padding: 0rem 0rem 0rem 0rem;
+		margin: 0rem 0rem 1rem 0rem;
+		padding: 0rem 0rem 0rem 1rem;
 	}
     
 
@@ -1163,14 +1163,14 @@ input, select, textarea {
 		}
 
 		#bg:before {
-			-moz-transition: background-color 5s ease-in-out;
-			-webkit-transition: background-color 5s ease-in-out;
-			-ms-transition: background-color 5s ease-in-out;
-			transition: background-color 5s ease-in-out;
-			-moz-transition-delay: 4s;
-			-webkit-transition-delay: 4s;
-			-ms-transition-delay: 4s;
-			transition-delay: 4s;
+			-moz-transition: background-color 2.5s ease-in-out;
+			-webkit-transition: background-color 2.5s ease-in-out;
+			-ms-transition: background-color 2.5s ease-in-out;
+			transition: background-color 2.5s ease-in-out;
+			-moz-transition-delay: 2.5s;
+			-webkit-transition-delay: 2.5s;
+			-ms-transition-delay: 2.5s;
+			transition-delay: 2.5s;
 			background-image: linear-gradient(to right, rgba(19, 21, 25, 0.3), rgba(19, 21, 25, 0.3));
 			background-size: auto,
  256px 256px;
