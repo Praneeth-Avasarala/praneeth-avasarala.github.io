@@ -764,7 +764,7 @@ input, select, textarea {
 			}
 			.image.round {
 				display: inline-block;
-				margin: 0.1rem 0rem 0rem 0rem ;
+				margin: 0.2rem 0rem 0rem 0rem ;
 				width: 7.5rem;
 				height: 7.5rem;
 				overflow: hidden;
