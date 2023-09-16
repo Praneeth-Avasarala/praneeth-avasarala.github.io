@@ -185,7 +185,7 @@ input, select, textarea {
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		
 		letter-spacing: 0.2rem;
 	}
 
@@ -208,7 +208,8 @@ input, select, textarea {
 		font-weight: 400;
 		color: rgb(219, 162, 16);
 		font-family: Georgia, 'Times New Roman', Times, serif;
-		font-size: 2.7rem;
+		font-size: 3rem;
+		text-transform: uppercase;
 		line-height: 1.3;
 		letter-spacing: 0.3rem;
 	}
@@ -221,10 +222,13 @@ input, select, textarea {
 	}
 
 	h3 {
+		letter-spacing: 0.05rem;
+		/* word-spacing: 0.2rem; */
 		font-size: 1rem;
 	}
 
 	h4 {
+		letter-spacing: 0.05rem;
 		font-size: 0.8rem;
 	}
 
@@ -728,14 +732,30 @@ input, select, textarea {
 			margin: 2.5rem 0;
 			width: 100%;
 		}
+		.image.round {
+			/* display: block; */
+			/* margin: 2.5rem 0; */
+			width: 100%;
+			border-radius: 90%;
+		}
 
 			.image.main img {
 				width: 100%;
 			}
+			.image.round img {
+				width: 100%;
+			}
+
 
 		@media screen and (max-width: 736px) {
 
 			.image.main {
+				margin: 2rem 0;
+			}
+			.image.round {
+				/* display: block; */
+				/* margin: 2.5rem 0; */
+				/* width: 100%; */
 				margin: 2rem 0;
 			}
 
@@ -745,6 +765,12 @@ input, select, textarea {
 
 			.image.main {
 				margin: 1.5rem 0;
+			}
+			.image.round {
+				/* display: block; */
+				/* margin: 2.5rem 0; */
+				/* width: 100%; */
+				margin: 2rem 0;
 			}
 
 		}
