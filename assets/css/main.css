@@ -733,17 +733,27 @@ input, select, textarea {
 			width: 100%;
 		}
 		.image.round {
-			/* display: block; */
-			/* margin: 2.5rem 0; */
-			width: 100%;
-			border-radius: 90%;
+			display: inline-block;
+			margin: 0.1rem 0rem 0rem 0rem ;
+			width: 7.6rem;
+			height: 7.6rem;
+			overflow: hidden;
+			border-radius: 80%;
+			/* align:middle; */
+			vertical-align:middle;
 		}
 
 			.image.main img {
 				width: 100%;
 			}
 			.image.round img {
-				width: 100%;
+				vertical-align: middle;
+				width: 8rem;
+				/* padding: 0rem 0rem 0rem 0rem; */
+			    /* margin : 0rem 0rem 0rem 0rem; */
+				
+
+				/* height: 20%; */
 			}
 
 
@@ -753,10 +763,21 @@ input, select, textarea {
 				margin: 2rem 0;
 			}
 			.image.round {
-				/* display: block; */
-				/* margin: 2.5rem 0; */
-				/* width: 100%; */
-				margin: 2rem 0;
+				display: inline-block;
+				margin: 0.1rem 0rem 0rem 0rem ;
+				width: 7.5rem;
+				height: 7.5rem;
+				overflow: hidden;
+				border-radius: 80%;
+			}
+			.image.round img {
+				vertical-align: middle;
+				width: 8rem;
+				/* padding: 0rem 0rem 0rem 0rem; */
+			    /* margin : 0rem 0rem 0rem 0rem; */
+				
+
+				/* height: 20%; */
 			}
 
 		}
@@ -767,10 +788,21 @@ input, select, textarea {
 				margin: 1.5rem 0;
 			}
 			.image.round {
-				/* display: block; */
-				/* margin: 2.5rem 0; */
-				/* width: 100%; */
-				margin: 2rem 0;
+				display: inline-block;
+				margin: 0.2rem 0rem 0rem 0rem ;
+				width: 7.5rem;
+				height: 7.5rem;
+				overflow: hidden;
+				border-radius: 80%;
+			}
+			.image.round img {
+				vertical-align: middle;
+				width: 8rem;
+				/* padding: 0rem 0rem 0rem 0rem; */
+			    /* margin : 0rem 0rem 0rem 0rem; */
+				
+
+				/* height: 20%; */
 			}
 
 		}
@@ -1197,7 +1229,7 @@ input, select, textarea {
 			-webkit-transition-delay: 2.5s;
 			-ms-transition-delay: 2.5s;
 			transition-delay: 2.5s;
-			background-image: linear-gradient(to right, rgba(19, 21, 25, 0.3), rgba(19, 21, 25, 0.3));
+			background-image: linear-gradient(to right, rgba(19, 21, 25, ), rgba(19, 21, 25, 0.7));
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1349,8 +1381,8 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			width: 8rem;
+			height: 8rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
@@ -1358,6 +1390,10 @@ input, select, textarea {
 
 			#header .logo .icon:before {
 				font-size: 2rem;
+			}
+
+			#header .logo .image.round:before {
+				font-size: 4rem;
 			}
 
 		#header .content {
@@ -1509,12 +1545,15 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
+				width: 8rem;
+				height: 8rem;
 				line-height: 4.75rem;
 			}
 
 				#header .logo .icon:before {
+					font-size: 1.75rem;
+				}
+				#header .logo .image.round:before {
 					font-size: 1.75rem;
 				}
 
