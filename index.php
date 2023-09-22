@@ -1,4 +1,16 @@
 
+<?php
+
+if($_POST["message"]) {
+
+mail("praneethavasarala@gmail.com", "Message on WebPage",
+
+$_POST["Here's the message left on the Webpage"]. "From: praneethavasarala@gmail.com");
+
+}
+
+?>
+
 <!DOCTYPE HTML>
 <!--
 	Dimension by HTML5 UP
@@ -119,7 +131,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="/myform-processor.php">
+								<form method="post" action="index.php">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
