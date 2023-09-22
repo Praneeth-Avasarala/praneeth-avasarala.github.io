@@ -1,3 +1,15 @@
+<?php
+
+if($_POST["message"]) {
+
+mail("your@email.address", "Here is the subject line",
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+}
+
+?>
+
 <!DOCTYPE HTML>
 <!--
 	Dimension by HTML5 UP
@@ -118,7 +130,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="mailto:praneethavasarala@gmail.com">
+								<form method="post" action="https://github.com/Praneeth-Avasarala/praneeth-avasarala.github.io/myform-processor.php">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -339,7 +351,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 								<section>
 									<h3 class="major">Form</h3>
-									<form method="post" action="#">
+									<form method="post" action="form-processor.php">
 										<div class="fields">
 											<div class="field half">
 												<label for="demo-name">Name</label>
